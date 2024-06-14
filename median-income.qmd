@@ -1,0 +1,18 @@
+---
+title: "June 13th Quarto"
+author: "Ivy Spratt"
+execute: 
+  echo: false
+---
+
+```{r}
+#| message: false
+#| label: setup
+
+library(tidyverse)
+```
+
+```{r}
+x <- read.csv(files = "data/mass-tracts.csv")
+```
+
